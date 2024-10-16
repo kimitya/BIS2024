@@ -36,24 +36,24 @@ Integration of our system into existing appliance sales companies.
  
 **- What we expect from a particular iteration.**
  
-<u>First iteration:</u>
+First iteration:
 Prototyping the core functionality to demonstrate the system's capability.
  
-<u>Second iteration:</u>
+Second iteration:
 Running an alpha test 
  
-<u>Third iteration:</u>
+Third iteration: 
 Analyzing performance on real data and scaling up the system. 
  
-<u>Fourth iteration:</u>
+Fourth iteration: 
 Improving the system based on employee feedback and optimizing its performance. 
  
-<u>Fifth iteration:</u>
+Fifth iteration:
 Beta test
  
 **- Pilot business process description as far as possible - how exactly will we use the model in the existing business process?**
  
-<u>Which BTs will be covered from a technical point of view in the first iteration:</u>
+Which BTs will be covered from a technical point of view in the first iteration:
 *   Development of a prototype system based on analyzing consumption data and proposing alternatives.
 *   Development and testing of a basic API for integration with user databases and third-party services.
 *   Development of an interface to visualize current consumption and suggestions.
@@ -62,14 +62,14 @@ Beta test
 *   Integration with external tech sales companies.
 *   A full real-time appliance health monitoring system to predict breakdowns.
  
-<u>-Which BTs will be covered from a technical point of view for the second iteration:</u>
+-Which BTs will be covered from a technical point of view for the second iteration:
 *   Start collecting data from real users for further analysis.
 *   Improving the prediction algorithm based on the collected data.
 *   Testing integration with external databases and APIs.
 *   Improving the user interface based on feedback from the test group.
  
  
-<u>-Which BTs will be covered from a technical perspective for the third iteration:</u>
+-Which BTs will be covered from a technical perspective for the third iteration:
 *   Introduction of additional features to analyze external factors (e.g. weather conditions) in forecasting.
 *   Scaling up testing and engagement with real home appliance suppliers.
 *   Optimize and improve the accuracy of the appliance condition monitoring system.
@@ -91,24 +91,24 @@ Beta test
  
 **1.3 What is included in the project/iteration scope, what is not included**
  
-<u>Included:</u>
+Included:
 *   Development of a prototype system and basic data analytics.
 *   Data visualization and generation of technique replacement recommendations.
 *   Basic user interface.
 *   API for integration with external databases.
  
-<u>Not included:</u>
+Not included:
 *   Full-fledged forecasting based on complex factors (time of day, weather, regional peculiarities).
 *   Diagnosis and prediction of machinery breakdowns.
 *   Full integration with retailers and marketplaces.
  
 **1.4 Solution prerequisites**
  
-<u>To create a system that meets the needs of the business and users, we consider the following prerequisites:</u>
-*   <u>Data used</u>: Interaction with resource consumption data (electricity, water, gas), appliance characteristics, external factors (weather, regional characteristics) and financial indicators (cost of resources in the region). This data will come from user bases as well as external sources via APIs.
-*   <u>Forecasting horizon</u>: Consumption forecasting will be for short-term (1-3 months) and medium-term (6-12 months) periods. This will allow users to see both the immediate benefit of replacing appliances and the long-term savings.
-*   <u>Model granularity</u>: Forecasts and recommendations will be built at the individual appliance level as well as aggregated at the household level. Additionally, region-level analysis will be considered to account for regional factors and external conditions.
-*   <u>Data and technology selection rationale</u>: Using consumption data and external factors, the model can accurately predict future resource consumption and provide personalized recommendations for appliance replacement. Machine learning and time-series forecasting algorithms (e.g., ARIMA, LSTM) will allow processing historical data and suggesting optimal alternatives to users, taking into account their preferences and external conditions.
+To create a system that meets the needs of the business and users, we consider the following prerequisites:
+*   Data used: Interaction with resource consumption data (electricity, water, gas), appliance characteristics, external factors (weather, regional characteristics) and financial indicators (cost of resources in the region). This data will come from user bases as well as external sources via APIs.
+*   Forecasting horizon: Consumption forecasting will be for short-term (1-3 months) and medium-term (6-12 months) periods. This will allow users to see both the immediate benefit of replacing appliances and the long-term savings.
+*   Model granularity: Forecasts and recommendations will be built at the individual appliance level as well as aggregated at the household level. Additionally, region-level analysis will be considered to account for regional factors and external conditions.
+*   Data and technology selection rationale: Using consumption data and external factors, the model can accurately predict future resource consumption and provide personalized recommendations for appliance replacement. Machine learning and time-series forecasting algorithms (e.g., ARIMA, LSTM) will allow processing historical data and suggesting optimal alternatives to users, taking into account their preferences and external conditions.
  
 ## 2.     Data Scientist methodology
  
@@ -123,29 +123,29 @@ From the Data Scientist perspective, the main technical challenges are:
 **2.2 Solution Block Diagram**
  
 Baseline block diagram (Baseline):
-1.         Data Preparation:
+1.Data Preparation:
 Collecting and processing data on resource consumption, machine characteristics and external factors (weather, regional tariffs).
 Data validation and cleaning.
-2.        Building predictive models:
+2.Building predictive models:
 Application of time series models to forecast consumption.
-3.        Recommender system:
+3.Recommender system:
 Create a model that will suggest alternatives for appliances based on analysis of current consumption and device characteristics.
-4.        Testing and Optimization:
+4.Testing and Optimization:
 Conducting A/B testing of recommendations and predictions.
 Optimizing algorithms based on feedback and performance.
-5.        Closing technical debt:
+5.Closing technical debt:
 Improving the architecture, optimizing the model to handle real user data, reporting and making recommendations to the business.
  
 MVP block diagram:
-1.        Data Preparation:
+1.Data Preparation:
 Creating a data showcase with a complete set of historical data on consumption, technique characteristics and external factors.
-2.        Business rules integration:
+2.Business rules integration:
 Defining technique selection rules and recommendations based on business metrics and resource consumption reduction goals.
-3.        Preparation of forecasting models and recommendations:
+3.Preparation of forecasting models and recommendations:
 Integrating time series models and recommendations into a single pipeline.
-4.        Testing on real data:
+4.Testing on real data:
 Model validation on real-time user data.
-5.        Pilot training:
+5.Pilot training:
 Deploying the model to a limited number of users and collecting feedback.
  
 **2.3 Stages of problem solving**
