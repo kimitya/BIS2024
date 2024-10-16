@@ -3,13 +3,13 @@
  
 **1.1 Why go into product development?**
  
-**-Business Objective**
+**- Business Objective**
  
 To make it easier to find alternatives to appliances that consume less resources and thus allow the user to save money on utilities.
  
 **- Why it will get better than it is now from using ML What we will consider the success of the iteration from a business perspective**
  
-o   Use AI to analyze data on current resource consumption(electricity, water, gas), taking into account external factors and predicting future consumption. 
+*   Use AI to analyze data on current resource consumption(electricity, water, gas), taking into account external factors and predicting future consumption.<br>
 o   Evaluate the efficiency of appliances and suggest alternatives (e.g., more energy efficient appliances) based on current energy consumption parameters.
 o   Provide personalized advice, for example, based on time of day, weather conditions or user habits.
 o   Monitor appliance health in real time to predict breakdowns and improve the longevity of appliances, which can help avoid unnecessary repair or replacement costs.
