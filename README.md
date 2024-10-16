@@ -125,7 +125,7 @@ From the Data Scientist perspective, the main technical challenges are:
 Baseline block diagram (Baseline):
 <ol>1. Data Preparation:<br>
 <ol>Collecting and processing data on resource consumption, machine characteristics and external factors (weather, regional tariffs).<br></ol>
-Data validation and cleaning.<br>
+<ol>Data validation and cleaning.<br></ol>
     2. Building predictive models:<br>
 <ol>Application of time series models to forecast consumption.<br></ol>
     3. Recommender system:<br>
@@ -137,16 +137,16 @@ Data validation and cleaning.<br>
 <ol>Improving the architecture, optimizing the model to handle real user data, reporting and making recommendations to the business.<br></ol></ol>
  
 MVP block diagram:
-1.Data Preparation:
-Creating a data showcase with a complete set of historical data on consumption, technique characteristics and external factors.
-2.Business rules integration:
-Defining technique selection rules and recommendations based on business metrics and resource consumption reduction goals.
-3.Preparation of forecasting models and recommendations:
-Integrating time series models and recommendations into a single pipeline.
-4.Testing on real data:
-Model validation on real-time user data.
-5.Pilot training:
-Deploying the model to a limited number of users and collecting feedback.
+<ol>1.Data Preparation:<br>
+<ol>Creating a data showcase with a complete set of historical data on consumption, technique characteristics and external factors.<br></ol>
+2.Business rules integration:<br>
+<ol>Defining technique selection rules and recommendations based on business metrics and resource consumption reduction goals.<br></ol>
+3.Preparation of forecasting models and recommendations:<br>
+<ol>Integrating time series models and recommendations into a single pipeline.<br></ol>
+4.Testing on real data:<br>
+<ol>Model validation on real-time user data.<br></ol>
+5.Pilot training:<br>
+<ol>Deploying the model to a limited number of users and collecting feedback.</ol></ol>
  
 **2.3 Stages of problem solving**
  
