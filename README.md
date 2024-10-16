@@ -1,5 +1,5 @@
 # BIS2024
-### 1.     Objectives and prerequisites
+## 1.     Objectives and prerequisites
  
 **1.1 Why go into product development?**
  
@@ -110,7 +110,7 @@ o   Forecasting horizon: Consumption forecasting will be for short-term (1-3 mon
 o   Model granularity: Forecasts and recommendations will be built at the individual appliance level as well as aggregated at the household level. Additionally, region-level analysis will be considered to account for regional factors and external conditions.
 o   Data and technology selection rationale: Using consumption data and external factors, the model can accurately predict future resource consumption and provide personalized recommendations for appliance replacement. Machine learning and time-series forecasting algorithms (e.g., ARIMA, LSTM) will allow processing historical data and suggesting optimal alternatives to users, taking into account their preferences and external conditions.
  
-### 2.     Data Scientist methodology
+## 2.     Data Scientist methodology
  
 **2.1 Problem Statement**
  
@@ -234,7 +234,7 @@ Description of planned technical debt:
 - Technical Debt
 Improve data quality (e.g., real-time validation of incoming data), and optimize algorithms to handle large amounts of data, identify and account for external factors.
  
-### 3. Pilot training
+## 3. Pilot training
  
 **3.1 How the pilot will be evaluated**
  
@@ -267,7 +267,7 @@ During the pilot phase, the system will be deployed on a limited scale. The requ
 o   Refinement of computational complexity parameters: 
 Computational cost data (e.g., number of operations and required memory for each prediction) will be collected during the baseline experimentation phase. This will allow the pilot parameters to be adjusted, limiting the frequency of updates and optimizing the processes for real-world workloads.
 
-### 4. Implementation for production systems
+## 4. Implementation for production systems
  
 **4.1 Solution Architecture**
  
