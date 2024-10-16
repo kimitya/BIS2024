@@ -122,18 +122,18 @@ From the Data Scientist perspective, the main technical challenges are:
  
 **2.2 Solution Block Diagram**
  
-Baseline block diagram (Baseline):
-1.Data Preparation:<br>
+Baseline block diagram (Baseline):<br>
+    1. Data Preparation:<br>
 Collecting and processing data on resource consumption, machine characteristics and external factors (weather, regional tariffs).<br>
 Data validation and cleaning.<br>
-2.Building predictive models:<br>
+    2. Building predictive models:<br>
 Application of time series models to forecast consumption.<br>
-3.Recommender system:<br>
+    3. Recommender system:<br>
 Create a model that will suggest alternatives for appliances based on analysis of current consumption and device characteristics.<br>
-4.Testing and Optimization:<br>
+    4. Testing and Optimization:<br>
 Conducting A/B testing of recommendations and predictions.<br>
 Optimizing algorithms based on feedback and performance.<br>
-5.Closing technical debt:<br>
+    5. Closing technical debt:<br>
 Improving the architecture, optimizing the model to handle real user data, reporting and making recommendations to the business.<br>
  
 MVP block diagram:
