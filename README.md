@@ -16,7 +16,7 @@ To make it easier to find alternatives to appliances that consume less resources
  
 **- What we will consider the success of the iteration from a business perspective**
  
-*   Integration of our system into existing appliance sales companies.
+Integration of our system into existing appliance sales companies.
  
 **1.2 Business Requirements and Constraints**
  
@@ -36,24 +36,24 @@ To make it easier to find alternatives to appliances that consume less resources
  
 **- What we expect from a particular iteration.**
  
-First iteration:
+<u>First iteration:</u>
 Prototyping the core functionality to demonstrate the system's capability.
  
-Second iteration:
+<u>Second iteration:</u>
 Running an alpha test 
  
-Third iteration: 
+<u>Third iteration:</u>
 Analyzing performance on real data and scaling up the system. 
  
-Fourth iteration: 
+<u>Fourth iteration:</u>
 Improving the system based on employee feedback and optimizing its performance. 
  
-Fifth iteration:
+<u>Fifth iteration:</u>
 Beta test
  
 **- Pilot business process description as far as possible - how exactly will we use the model in the existing business process?**
  
-Which BTs will be covered from a technical point of view in the first iteration:
+<u>Which BTs will be covered from a technical point of view in the first iteration:</u>
 *   Development of a prototype system based on analyzing consumption data and proposing alternatives.
 *   Development and testing of a basic API for integration with user databases and third-party services.
 *   Development of an interface to visualize current consumption and suggestions.
@@ -62,14 +62,14 @@ Which BTs will be covered from a technical point of view in the first iteration:
 *   Integration with external tech sales companies.
 *   A full real-time appliance health monitoring system to predict breakdowns.
  
--Which BTs will be covered from a technical point of view for the second iteration:
+<u>-Which BTs will be covered from a technical point of view for the second iteration:</u>
 *   Start collecting data from real users for further analysis.
 *   Improving the prediction algorithm based on the collected data.
 *   Testing integration with external databases and APIs.
 *   Improving the user interface based on feedback from the test group.
  
  
--Which BTs will be covered from a technical perspective for the third iteration:
+<u>-Which BTs will be covered from a technical perspective for the third iteration:</u>
 *   Introduction of additional features to analyze external factors (e.g. weather conditions) in forecasting.
 *   Scaling up testing and engagement with real home appliance suppliers.
 *   Optimize and improve the accuracy of the appliance condition monitoring system.
@@ -91,24 +91,24 @@ Which BTs will be covered from a technical point of view in the first iteration:
  
 **1.3 What is included in the project/iteration scope, what is not included**
  
-Included:
+<u>Included:</u>
 *   Development of a prototype system and basic data analytics.
 *   Data visualization and generation of technique replacement recommendations.
 *   Basic user interface.
 *   API for integration with external databases.
  
-Not included:
+<u>Not included:</u>
 *   Full-fledged forecasting based on complex factors (time of day, weather, regional peculiarities).
 *   Diagnosis and prediction of machinery breakdowns.
 *   Full integration with retailers and marketplaces.
  
 **1.4 Solution prerequisites**
  
-To create a system that meets the needs of the business and users, we consider the following prerequisites:
-*   Data used: Interaction with resource consumption data (electricity, water, gas), appliance characteristics, external factors (weather, regional characteristics) and financial indicators (cost of resources in the region). This data will come from user bases as well as external sources via APIs.
-*   Forecasting horizon: Consumption forecasting will be for short-term (1-3 months) and medium-term (6-12 months) periods. This will allow users to see both the immediate benefit of replacing appliances and the long-term savings.
-*   Model granularity: Forecasts and recommendations will be built at the individual appliance level as well as aggregated at the household level. Additionally, region-level analysis will be considered to account for regional factors and external conditions.
-*   Data and technology selection rationale: Using consumption data and external factors, the model can accurately predict future resource consumption and provide personalized recommendations for appliance replacement. Machine learning and time-series forecasting algorithms (e.g., ARIMA, LSTM) will allow processing historical data and suggesting optimal alternatives to users, taking into account their preferences and external conditions.
+<u>To create a system that meets the needs of the business and users, we consider the following prerequisites:</u>
+*   <u>Data used</u>: Interaction with resource consumption data (electricity, water, gas), appliance characteristics, external factors (weather, regional characteristics) and financial indicators (cost of resources in the region). This data will come from user bases as well as external sources via APIs.
+*   <u>Forecasting horizon</u>: Consumption forecasting will be for short-term (1-3 months) and medium-term (6-12 months) periods. This will allow users to see both the immediate benefit of replacing appliances and the long-term savings.
+*   <u>Model granularity</u>: Forecasts and recommendations will be built at the individual appliance level as well as aggregated at the household level. Additionally, region-level analysis will be considered to account for regional factors and external conditions.
+*   <u>Data and technology selection rationale</u>: Using consumption data and external factors, the model can accurately predict future resource consumption and provide personalized recommendations for appliance replacement. Machine learning and time-series forecasting algorithms (e.g., ARIMA, LSTM) will allow processing historical data and suggesting optimal alternatives to users, taking into account their preferences and external conditions.
  
 ## 2.     Data Scientist methodology
  
