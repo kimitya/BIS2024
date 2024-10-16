@@ -10,29 +10,29 @@ To make it easier to find alternatives to appliances that consume less resources
 **- Why it will get better than it is now from using ML What we will consider the success of the iteration from a business perspective**
  
 *   Use AI to analyze data on current resource consumption(electricity, water, gas), taking into account external factors and predicting future consumption.<br>
-o   Evaluate the efficiency of appliances and suggest alternatives (e.g., more energy efficient appliances) based on current energy consumption parameters.
-o   Provide personalized advice, for example, based on time of day, weather conditions or user habits.
-o   Monitor appliance health in real time to predict breakdowns and improve the longevity of appliances, which can help avoid unnecessary repair or replacement costs.
+*   Evaluate the efficiency of appliances and suggest alternatives (e.g., more energy efficient appliances) based on current energy consumption parameters.
+*   Provide personalized advice, for example, based on time of day, weather conditions or user habits.
+*   Monitor appliance health in real time to predict breakdowns and improve the longevity of appliances, which can help avoid unnecessary repair or replacement costs.
  
 **- What we will consider the success of the iteration from a business perspective**
  
-o   Integration of our system into existing appliance sales companies.
+*   Integration of our system into existing appliance sales companies.
  
 **1.2 Business Requirements and Constraints**
  
 **- Brief description of BT and links to detailed business requirements documents**
  
-o   Database and system for its regular updates
-o   Release of own application to the market
-o   AI to analyze current user service consumption and predict data based on it
-o   AI to suggest the best working alternative to tech based on his consumption history and preferences
-o   Developing a user-friendly interface for the user and API for companies
+*   Database and system for its regular updates
+*   Release of own application to the market
+*   AI to analyze current user service consumption and predict data based on it
+*   AI to suggest the best working alternative to tech based on his consumption history and preferences
+*   Developing a user-friendly interface for the user and API for companies
  
 **- Business constraints**
  
-o   Data privacy, collecting user data information about their consumption data
-o   Development and testing within budget and project timeline.
-o   Managing dependencies on third-party APIs and keeping the model within financial constraints.
+*   Data privacy, collecting user data information about their consumption data
+*   Development and testing within budget and project timeline.
+*   Managing dependencies on third-party APIs and keeping the model within financial constraints.
  
 **- What we expect from a particular iteration.**
  
@@ -54,71 +54,71 @@ Beta test
 **- Pilot business process description as far as possible - how exactly will we use the model in the existing business process?**
  
 Which BTs will be covered from a technical point of view in the first iteration:
-o   Development of a prototype system based on analyzing consumption data and proposing alternatives.
-o   Development and testing of a basic API for integration with user databases and third-party services.
-o   Development of an interface to visualize current consumption and suggestions.
-o   What won't be closed:
-o   Deep analysis and forecasting based on multiple external factors (e.g., weather, time of day) will be deferred to later iterations.
-o   Integration with external tech sales companies.
-o   A full real-time appliance health monitoring system to predict breakdowns.
+*   Development of a prototype system based on analyzing consumption data and proposing alternatives.
+*   Development and testing of a basic API for integration with user databases and third-party services.
+*   Development of an interface to visualize current consumption and suggestions.
+*   What won't be closed:
+*   Deep analysis and forecasting based on multiple external factors (e.g., weather, time of day) will be deferred to later iterations.
+*   Integration with external tech sales companies.
+*   A full real-time appliance health monitoring system to predict breakdowns.
  
 -Which BTs will be covered from a technical point of view for the second iteration:
-o   Start collecting data from real users for further analysis.
-o   Improving the prediction algorithm based on the collected data.
-o   Testing integration with external databases and APIs.
-o   Improving the user interface based on feedback from the test group.
+*   Start collecting data from real users for further analysis.
+*   Improving the prediction algorithm based on the collected data.
+*   Testing integration with external databases and APIs.
+*   Improving the user interface based on feedback from the test group.
  
  
 - Which BTs will be covered from a technical perspective for the third iteration:
-o   Introduction of additional features to analyze external factors (e.g. weather conditions) in forecasting.
-o   Scaling up testing and engagement with real home appliance suppliers.
-o   Optimize and improve the accuracy of the appliance condition monitoring system.
+*   Introduction of additional features to analyze external factors (e.g. weather conditions) in forecasting.
+*   Scaling up testing and engagement with real home appliance suppliers.
+*   Optimize and improve the accuracy of the appliance condition monitoring system.
  
 **- Description of the result in terms of code quality and reproducibility**
-o   The code should be structured, support modularity for easy updating of individual parts of the system (analysis algorithms, interface, etc.).
-o   The system should be easily deployable in different environments (locally and on a server), using containers (Docker) or CI/CD.
-o   Documentation should be complete, with instructions on how to run, configure and use the API.
+*   The code should be structured, support modularity for easy updating of individual parts of the system (analysis algorithms, interface, etc.).
+*   The system should be easily deployable in different environments (locally and on a server), using containers (Docker) or CI/CD.
+*   Documentation should be complete, with instructions on how to run, configure and use the API.
  
 **- Description of planned technical debt**
-o   Temporary use of basic forecasting algorithms instead of more sophisticated neural network solutions.
-o   Limited integration with external APIs in the initial stages (possibly manually collected data instead of automatic connectivity).
-o   Temporary lack of full monitoring and diagnostics of appliances.
+*   Temporary use of basic forecasting algorithms instead of more sophisticated neural network solutions.
+*   Limited integration with external APIs in the initial stages (possibly manually collected data instead of automatic connectivity).
+*   Temporary lack of full monitoring and diagnostics of appliances.
  
 **- What do we consider a successful pilot? Criteria for success and possible ways of project development **
-o   Successful completion of the first iteration: The prototype should be operational and demonstrate the basic functions of the system. Evaluation of success is positive feedback from the first test users.
-o   Alpha test: Collect data from real users and improve the model based on them. A successful test is the adaptation of the model to a variety of usage scenarios.
-o   Integration with companies: Integration with at least one tech company will be considered a success, allowing the product to scale and offer real solutions to customers.
+*   Successful completion of the first iteration: The prototype should be operational and demonstrate the basic functions of the system. Evaluation of success is positive feedback from the first test users.
+*   Alpha test: Collect data from real users and improve the model based on them. A successful test is the adaptation of the model to a variety of usage scenarios.
+*   Integration with companies: Integration with at least one tech company will be considered a success, allowing the product to scale and offer real solutions to customers.
  
 **1.3 What is included in the project/iteration scope, what is not included**
  
 Included:
-o   Development of a prototype system and basic data analytics.
-o   Data visualization and generation of technique replacement recommendations.
-o   Basic user interface.
-o   API for integration with external databases.
+*   Development of a prototype system and basic data analytics.
+*   Data visualization and generation of technique replacement recommendations.
+*   Basic user interface.
+*   API for integration with external databases.
  
 Not included:
-o   Full-fledged forecasting based on complex factors (time of day, weather, regional peculiarities).
-o   Diagnosis and prediction of machinery breakdowns.
-o   Full integration with retailers and marketplaces.
+*   Full-fledged forecasting based on complex factors (time of day, weather, regional peculiarities).
+*   Diagnosis and prediction of machinery breakdowns.
+*   Full integration with retailers and marketplaces.
  
 **1.4 Solution prerequisites**
  
 To create a system that meets the needs of the business and users, we consider the following prerequisites:
-o   Data used: Interaction with resource consumption data (electricity, water, gas), appliance characteristics, external factors (weather, regional characteristics) and financial indicators (cost of resources in the region). This data will come from user bases as well as external sources via APIs.
-o   Forecasting horizon: Consumption forecasting will be for short-term (1-3 months) and medium-term (6-12 months) periods. This will allow users to see both the immediate benefit of replacing appliances and the long-term savings.
-o   Model granularity: Forecasts and recommendations will be built at the individual appliance level as well as aggregated at the household level. Additionally, region-level analysis will be considered to account for regional factors and external conditions.
-o   Data and technology selection rationale: Using consumption data and external factors, the model can accurately predict future resource consumption and provide personalized recommendations for appliance replacement. Machine learning and time-series forecasting algorithms (e.g., ARIMA, LSTM) will allow processing historical data and suggesting optimal alternatives to users, taking into account their preferences and external conditions.
+*   Data used: Interaction with resource consumption data (electricity, water, gas), appliance characteristics, external factors (weather, regional characteristics) and financial indicators (cost of resources in the region). This data will come from user bases as well as external sources via APIs.
+*   Forecasting horizon: Consumption forecasting will be for short-term (1-3 months) and medium-term (6-12 months) periods. This will allow users to see both the immediate benefit of replacing appliances and the long-term savings.
+*   Model granularity: Forecasts and recommendations will be built at the individual appliance level as well as aggregated at the household level. Additionally, region-level analysis will be considered to account for regional factors and external conditions.
+*   Data and technology selection rationale: Using consumption data and external factors, the model can accurately predict future resource consumption and provide personalized recommendations for appliance replacement. Machine learning and time-series forecasting algorithms (e.g., ARIMA, LSTM) will allow processing historical data and suggesting optimal alternatives to users, taking into account their preferences and external conditions.
  
 ## 2.     Data Scientist methodology
  
 **2.1 Problem Statement**
  
 From the Data Scientist perspective, the main technical challenges are:
-o   Create a system that will analyze resource consumption parameters and suggest some alternatives for home appliances. The model will be based on historical data and characteristics of available appliances.
-o   Building predictive models to determine future resource consumption based on time series, including seasonal and external factors, like weather.
-o   Integrate business rules to select the most efficient solutions in terms of machinery replacement. The system will take into account user preferences and utility cost reduction goals.
-o   Identify unexpected consumption spikes that may indicate malfunctioning appliances or changes in user habits.
+*   Create a system that will analyze resource consumption parameters and suggest some alternatives for home appliances. The model will be based on historical data and characteristics of available appliances.
+*   Building predictive models to determine future resource consumption based on time series, including seasonal and external factors, like weather.
+*   Integrate business rules to select the most efficient solutions in terms of machinery replacement. The system will take into account user preferences and utility cost reduction goals.
+*   Identify unexpected consumption spikes that may indicate malfunctioning appliances or changes in user habits.
  
 **2.2 Solution Block Diagram**
  
@@ -252,19 +252,19 @@ The evaluation will be based on analyzing these metrics over time and comparing 
  
 The success of the pilot will be determined by the following formalized metrics:
  
-o   Forecast Accuracy: Consumption forecast error is not meaningful (e.g., MAPE < 10% at a forecast horizon of 3 months).
-o   Acceptance of recommendations: Over 70% of users who are offered alternative devices are expected to take up recommendations or express willingness to consider them.
-o   Resource savings: On average, a 15-20% reduction in resource consumption for users who follow the system's recommendations.
-o   User Satisfaction: More than 80% of users should rate the system a 4+ out of 5 on the satisfaction scale.
+*   Forecast Accuracy: Consumption forecast error is not meaningful (e.g., MAPE < 10% at a forecast horizon of 3 months).
+*   Acceptance of recommendations: Over 70% of users who are offered alternative devices are expected to take up recommendations or express willingness to consider them.
+*   Resource savings: On average, a 15-20% reduction in resource consumption for users who follow the system's recommendations.
+*   User Satisfaction: More than 80% of users should rate the system a 4+ out of 5 on the satisfaction scale.
  
 **3.3 Pilot Preparation**
  
 To ensure the computational efficiency of the pilot, the following measures will be taken:
  
-o   Expected computational cost: 
+*   Expected computational cost: 
 During the pilot phase, the system will be deployed on a limited scale. The required resources for model performance, including forecast recalculation frequency and recommendations, will be calculated. If necessary, the model will be optimized to run with less data or using less resource-intensive models for real-time predictions.
  
-o   Refinement of computational complexity parameters: 
+*   Refinement of computational complexity parameters: 
 Computational cost data (e.g., number of operations and required memory for each prediction) will be collected during the baseline experimentation phase. This will allow the pilot parameters to be adjusted, limiting the frequency of updates and optimizing the processes for real-world workloads.
 
 ## 4. Implementation for production systems
@@ -273,20 +273,20 @@ Computational cost data (e.g., number of operations and required memory for each
  
 Block diagram of the solution:
 1. Frontend (User Interface):
-o   Displays recommendations to users in the application.
-o   Collects data about user habits.
-o   Connects via API to the backend service.
+*   Displays recommendations to users in the application.
+*   Collects data about user habits.
+*   Connects via API to the backend service.
 2. Backend (Main Server):
-o   Responsible for processing user data.
-o   Interfaces with consumption and recommendation databases.
-o   Generates forecasts and recommendations using ML models.
+*   Responsible for processing user data.
+*   Interfaces with consumption and recommendation databases.
+*   Generates forecasts and recommendations using ML models.
 3. ML Engine:
-o   Module to perform consumption and recommendation analysis.
-o   Uses trained models to predict consumption and find alternative devices.
+*   Module to perform consumption and recommendation analysis.
+*   Uses trained models to predict consumption and find alternative devices.
 4.             Database:
-o   Stores data on consumption, user preferences, and devices.
+*   Stores data on consumption, user preferences, and devices.
 5.             API Gateway:
-o   Enables communication between Frontend and Backend services.
+*   Enables communication between Frontend and Backend services.
  
 **Main API methods:**
 - Receive consumption data: o GET /consumption
@@ -297,76 +297,76 @@ o   Enables communication between Frontend and Backend services.
  
 **Infrastructure:**
 Choice of cloud provider: 
-o   Cloud infrastructure (e.g. AWS, GCP, Azure) is used to provide flexibility and scalability.
+*   Cloud infrastructure (e.g. AWS, GCP, Azure) is used to provide flexibility and scalability.
  
 Reasons for selection:
-o   Ease of scaling the system as the load increases.
-o   Ability for automatic load balancing and fault tolerance.
-o   High level of data security.
+*   Ease of scaling the system as the load increases.
+*   Ability for automatic load balancing and fault tolerance.
+*   High level of data security.
  
 Pros:
-o   Reduced cost of in-house infrastructure.
-o   Flexibility in customization of services and their scaling.
+*   Reduced cost of in-house infrastructure.
+*   Flexibility in customization of services and their scaling.
  
 Minuses:
-o   Dependence on third-party vendors.
-o   Potential risks of failures on the cloud provider's side.
+*   Dependence on third-party vendors.
+*   Potential risks of failures on the cloud provider's side.
  
 Why the chosen solution is better than others:
-o   Cloud-based solutions provide fast integration, high availability, and out-of-the-box tools for deploying ML solutions.
+*   Cloud-based solutions provide fast integration, high availability, and out-of-the-box tools for deploying ML solutions.
  
 **4.3 System Performance Requirements**
  
 SLA (Service Level Agreement):
-o   99.9% service availability.
-o   Ability to process up to 10,000 requests per minute.
-o   Average response time of no more than 500 ms for standard requests and up to 2 seconds for complex operations (e.g., forecast generation).
+*   99.9% service availability.
+*   Ability to process up to 10,000 requests per minute.
+*   Average response time of no more than 500 ms for standard requests and up to 2 seconds for complex operations (e.g., forecast generation).
  
 **4.4 System Security**
  
 Potential vulnerabilities:
-o   API vulnerabilities: Possible attacks through API weaknesses such as flaws in authentication and authorization.
-o   DDoS Threats: The system may be overloaded due to targeted attacks.
+*   API vulnerabilities: Possible attacks through API weaknesses such as flaws in authentication and authorization.
+*   DDoS Threats: The system may be overloaded due to targeted attacks.
  
 Security measures:
-o   Protecting the API with tokens and OAuth 2.0.
-o   Application of traffic monitoring system and DDoS protection.
+*   Protecting the API with tokens and OAuth 2.0.
+*   Application of traffic monitoring system and DDoS protection.
  
 **4.5 Data Security**
  
 GDPR Compliance:
-o   User Data Processing: All user data must be processed in compliance with GDPR, including users' explicit consent to data collection.
-o   Anonymization: Personal data must be anonymized or pseudonymized when processed for analysis.
+*   User Data Processing: All user data must be processed in compliance with GDPR, including users' explicit consent to data collection.
+*   Anonymization: Personal data must be anonymized or pseudonymized when processed for analysis.
  
 Data security principles:
-o   Encryption of data in transit (TLS).
-o   Encryption of data at rest (e.g., AES-256).
-o   Regular security audits and protection against data leakage.
+*   Encryption of data in transit (TLS).
+*   Encryption of data at rest (e.g., AES-256).
+*   Regular security audits and protection against data leakage.
  
 **4.6 Costs**
  
 Estimated Costs:
-o   The approximate cost of running the system in the cloud is about $2000-$5000 per month, depending on the volume of queries and the intensity of computing resources for predictions and recommendations.
-o   Approximate cost of $500 per month to store user data.
+*   The approximate cost of running the system in the cloud is about $2000-$5000 per month, depending on the volume of queries and the intensity of computing resources for predictions and recommendations.
+*   Approximate cost of $500 per month to store user data.
  
 **4.7. Integration points**
  
 Interaction between services:
-o   Frontend ↔ Backend: Interaction APIs to retrieve consumption data and display recommendations to users.
-o   Backend ↔ ML Engine: Calls to generate forecasts and recommendations based on user data.
-o   Backend ↔ Database: Storage of consumption history and parameters of user devices.
+*   Frontend ↔ Backend: Interaction APIs to retrieve consumption data and display recommendations to users.
+*   Backend ↔ ML Engine: Calls to generate forecasts and recommendations based on user data.
+*   Backend ↔ Database: Storage of consumption history and parameters of user devices.
  
 **4.8 Risks**
  
 Main risks:
-o   Lack of data: Limited consumption data may affect the accuracy of predictions.
-o   Recommendation errors: Incorrect recommendations may cause user dissatisfaction.
-o   Dependence on third-party APIs: Problems with third-party APIs can cause system failures.
+*   Lack of data: Limited consumption data may affect the accuracy of predictions.
+*   Recommendation errors: Incorrect recommendations may cause user dissatisfaction.
+*   Dependence on third-party APIs: Problems with third-party APIs can cause system failures.
  
 Risk management measures:
-o   Develop backup methods of operation when data is unavailable.
-o   Continuous monitoring of models and retraining them on new data.
-o   Implement testing and monitoring to detect bugs early.
+*   Develop backup methods of operation when data is unavailable.
+*   Continuous monitoring of models and retraining them on new data.
+*   Implement testing and monitoring to detect bugs early.
 
 
 
