@@ -69,7 +69,7 @@ Which BTs will be covered from a technical point of view in the first iteration:
 *   Improving the user interface based on feedback from the test group.
  
  
-- Which BTs will be covered from a technical perspective for the third iteration:
+-Which BTs will be covered from a technical perspective for the third iteration:
 *   Introduction of additional features to analyze external factors (e.g. weather conditions) in forecasting.
 *   Scaling up testing and engagement with real home appliance suppliers.
 *   Optimize and improve the accuracy of the appliance condition monitoring system.
@@ -84,7 +84,7 @@ Which BTs will be covered from a technical point of view in the first iteration:
 *   Limited integration with external APIs in the initial stages (possibly manually collected data instead of automatic connectivity).
 *   Temporary lack of full monitoring and diagnostics of appliances.
  
-**- What do we consider a successful pilot? Criteria for success and possible ways of project development **
+**- What do we consider a successful pilot? Criteria for success and possible ways of project development**
 *   Successful completion of the first iteration: The prototype should be operational and demonstrate the basic functions of the system. Evaluation of success is positive feedback from the first test users.
 *   Alpha test: Collect data from real users and improve the model based on them. A successful test is the adaptation of the model to a variety of usage scenarios.
 *   Integration with companies: Integration with at least one tech company will be considered a success, allowing the product to scale and offer real solutions to customers.
