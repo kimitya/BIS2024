@@ -242,9 +242,9 @@ The evaluation of the pilot will be based on the following approach:<br>
 A limited group of users (e.g. 100-500 people) will be selected to test the recommendation and prediction system. Data will be collected on their technique consumption and feedback on the suggested recommendations. A/B testing is applied: one group receives recommendations from the system, the other group uses their technique without modification.
  
 Evaluation methods:
-* Prediction accuracy metrics: We compare predicted and actual resource consumption rates.
-* User satisfaction: Survey users about the recommendations offered, the usability of the interface, and their understanding of the proposed alternatives.
-* Economic Impact: Evaluate the reduction in utility costs for users who followed the recommendations.
+*   Prediction accuracy metrics: We compare predicted and actual resource consumption rates.
+*   User satisfaction: Survey users about the recommendations offered, the usability of the interface, and their understanding of the proposed alternatives.
+*   Economic Impact: Evaluate the reduction in utility costs for users who followed the recommendations.
  
 The evaluation will be based on analyzing these metrics over time and comparing them to a control group.
  
